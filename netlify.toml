@@ -1,6 +1,4 @@
 [build]
-  functions = "functions-built"
- 
-  build = "npm build && npm build:functions"
-  
-  publish = "build"
+    functions = "src/functions"
+    publish = "build"
+    command = "npm run build"

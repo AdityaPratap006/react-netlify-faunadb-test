@@ -4,7 +4,6 @@
   "private": true,
   "dependencies": {
     "faunadb": "^2.9.2",
-    "netlify-lambda": "^1.6.3",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-scripts": "3.2.0"
@@ -13,10 +12,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "start:functions": "netlify-lambda serve src/functions",
-    "build:functions": "netlify-lambda build src/functions"
-   
+    "eject": "react-scripts eject"
+     
   },
   "eslintConfig": {
     "extends": "react-app"
